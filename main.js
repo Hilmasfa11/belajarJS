@@ -49,8 +49,8 @@
 // })
 
 let todoName = document.getElementById('todo-name');
-let btnKirim = document.getElementById('btn-kirim');
-btnKirim.addEventListener('click', function () {
+let btnSubmit = document.getElementById('btn-submit');
+btnSubmit.addEventListener('click', function () {
     if (todoName.value == '') {
         alert('Nama todo tidak boleh kosong!!');
     } else {
